@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bambidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				180,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bambleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-27
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bambdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				25
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bambup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bambright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				170,
+				83
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "phonesmash",
+			"indices": [],
+			"name": "bambphonesmash"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambi_fnf",
+	"position": [
+		-270,
+		-10
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		158,
+		81
+	],
+	"camera_position": [
+		70,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				35,
+				16
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bambkeyboardidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				130,
+				16
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bambkeyboardleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-14
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bambkeyboarddown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				55,
+				39
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bambkeyboardup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				17
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bambkeyboardright",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambi_fnf_keyboard",
+	"position": [
+		-270,
+		-10
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		158,
+		81
+	],
+	"camera_position": [
+		170,
+		350
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}

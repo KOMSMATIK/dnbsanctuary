@@ -124,6 +124,14 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Judgements Camera',
+		    "Changes the camera to which the judgements are tied to",
+			'comboCamera',
+			'string',
+			'HUD',
+			['HUD', 'world']);
+		addOption(option);
+
 		super();
 	}
 
