@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rodgerBg1.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cool0000" x="0" y="0" width="372" height="532"/>
+	<SubTexture name="cool0001" x="0" y="0" width="372" height="532"/>
+	<SubTexture name="cool0002" x="372" y="0" width="371" height="531" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0003" x="372" y="0" width="371" height="531" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0004" x="0" y="1064" width="371" height="532" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0005" x="0" y="1064" width="371" height="532" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0006" x="0" y="532" width="372" height="532"/>
+	<SubTexture name="cool0007" x="0" y="532" width="372" height="532"/>
+	<SubTexture name="cool0008" x="372" y="531" width="371" height="531" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0009" x="372" y="531" width="371" height="531" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0010" x="371" y="1064" width="371" height="532" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+	<SubTexture name="cool0011" x="371" y="1064" width="371" height="532" frameX="0" frameY="0" frameWidth="372" frameHeight="532"/>
+</TextureAtlas>

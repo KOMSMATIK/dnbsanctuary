@@ -5,74 +5,74 @@
 				40,
 				-10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "dave idle"
+			"indices": [],
+			"name": "dave3d idle"
 		},
 		{
 			"offsets": [
 				40,
 				-10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "dave left"
+			"indices": [],
+			"name": "dave3d left"
 		},
 		{
 			"offsets": [
 				40,
 				-10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "dave right"
+			"indices": [],
+			"name": "dave3d right"
 		},
 		{
 			"offsets": [
 				40,
 				-10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "dave down"
+			"indices": [],
+			"name": "dave3d down"
 		},
 		{
 			"offsets": [
 				40,
 				-10
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "dave up"
+			"indices": [],
+			"name": "dave3d up"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/dave",
+	"image": "characters/dave3d",
 	"position": [
-		-380,
-		-20
+		-70,
+		110
 	],
-	"healthicon": "3ddaveicons",
+	"healthicon": "dave3d",
 	"flip_x": false,
 	"healthbar_colors": [
-		58,
-		95,
-		255
+		72,
+		38,
+		220
 	],
 	"camera_position": [
-		100,
-		-20
+		-170,
+		-100
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.2
 }

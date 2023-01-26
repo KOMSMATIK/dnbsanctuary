@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="rodgerBg2.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pound0000" x="0" y="0" width="403" height="369" frameX="0" frameY="-13" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0001" x="0" y="0" width="403" height="369" frameX="0" frameY="-13" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0002" x="0" y="744" width="376" height="380" frameX="-13" frameY="-2" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0003" x="0" y="744" width="376" height="380" frameX="-13" frameY="-2" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0004" x="376" y="749" width="372" height="382" frameX="-15" frameY="0" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0005" x="376" y="749" width="372" height="382" frameX="-15" frameY="0" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0006" x="0" y="369" width="388" height="375" frameX="-7" frameY="-7" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0007" x="0" y="369" width="388" height="375" frameX="-7" frameY="-7" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0008" x="388" y="369" width="377" height="380" frameX="-12" frameY="-2" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0009" x="388" y="369" width="377" height="380" frameX="-12" frameY="-2" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0010" x="0" y="1124" width="372" height="382" frameX="-15" frameY="0" frameWidth="403" frameHeight="382"/>
+	<SubTexture name="pound0011" x="0" y="1124" width="372" height="382" frameX="-15" frameY="0" frameWidth="403" frameHeight="382"/>
+</TextureAtlas>

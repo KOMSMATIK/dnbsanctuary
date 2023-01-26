@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				-90
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-128
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-76,
+				-224
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-59,
+				-56
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-93
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right instance 1",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-87,
+				-89
+			],
+			"anim": "gangstaRap",
+			"fps": 24,
+			"name": "gangstaRap",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-86,
+				-89
+			],
+			"anim": "gangstaIdle",
+			"fps": 24,
+			"name": "gangstaIdle",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-4,
+				-90
+			],
+			"anim": "talk",
+			"fps": 24,
+			"name": "talkingToMboi",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				8,
+				-90
+			],
+			"anim": "wave",
+			"fps": 24,
+			"name": "wave",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/rodger",
+	"position": [
+		30,
+		290
+	],
+	"healthicon": "rodger",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		102,
+		204
+	],
+	"camera_position": [
+		-83,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
