@@ -291,9 +291,9 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT && allowInput)
 			{
-				if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'ost')
 				{
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+					CoolUtil.browserLoad('https://youtube.com/playlist?list=PLgyQbXt3iFsFj3O9VxIbzY5haJdfkwZ7v');
 				}
 				else
 				{
@@ -353,8 +353,6 @@ class MainMenuState extends MusicBeatState
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
-									case 'ost':
-										CoolUtil.browserLoad("https://youtube.com/playlist?list=PLgyQbXt3iFsFj3O9VxIbzY5haJdfkwZ7v");
 									case 'settings':
 										LoadingState.loadAndSwitchState(new options.OptionsState());
 								}
