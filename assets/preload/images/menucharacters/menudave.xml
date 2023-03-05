@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="menudave.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="menu dave0000" x="2" y="2" width="803" height="932" frameX="0" frameY="-24" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0001" x="2" y="2" width="803" height="932" frameX="0" frameY="-24" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0002" x="807" y="2" width="780" height="935" frameX="-9" frameY="-14" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0003" x="807" y="2" width="780" height="935" frameX="-9" frameY="-14" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0004" x="2" y="939" width="766" height="947" frameX="-17" frameY="-2" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0005" x="2" y="939" width="766" height="947" frameX="-17" frameY="-2" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0006" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0007" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0008" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0009" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0010" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0011" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0012" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+	<SubTexture name="menu dave0013" x="770" y="939" width="762" height="949" frameX="-20" frameY="0" frameWidth="803" frameHeight="956"/>
+</TextureAtlas>

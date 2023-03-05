@@ -20,7 +20,7 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Change Difficulty', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Options', 'Back to menu'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -30,6 +30,12 @@ class PauseSubState extends MusicBeatSubstate
 	var skipTimeTracker:Alphabet;
 	var curTime:Float = Math.max(0, Conductor.songPosition);
 	//var botplayText:FlxText;
+
+	var pausedBack:FlxSprite;
+	var pausedText:FlxText;
+
+	var selectorLeft:Alphabet;
+	var selectorRight:Alphabet;
 
 	public static var songName:String = '';
 
@@ -48,7 +54,7 @@ class PauseSubState extends MusicBeatSubstate
 				num = 1;
 				menuItemsOG.insert(3, 'Skip Time');
 			}
-			menuItemsOG.insert(3 + num, 'End Song');
+			//menuItemsOG.insert(3 + num, 'End Song');
 			menuItemsOG.insert(4 + num, 'Toggle Practice Mode');
 			menuItemsOG.insert(5 + num, 'Toggle Botplay');
 		}
@@ -80,27 +86,27 @@ class PauseSubState extends MusicBeatSubstate
 		var levelInfo:FlxText = new FlxText(20, 15, 0, "", 32);
 		levelInfo.text += PlayState.SONG.song;
 		levelInfo.scrollFactor.set();
-		levelInfo.setFormat(Paths.font("vcr.ttf"), 32);
+		levelInfo.setFormat(Paths.font("comic.ttf"), 32);
 		levelInfo.updateHitbox();
 		add(levelInfo);
 
-		var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
+		/*var levelDifficulty:FlxText = new FlxText(20, 15 + 32, 0, "", 32);
 		levelDifficulty.text += CoolUtil.difficultyString();
 		levelDifficulty.scrollFactor.set();
-		levelDifficulty.setFormat(Paths.font('vcr.ttf'), 32);
+		levelDifficulty.setFormat(Paths.font('comic.ttf'), 32);
 		levelDifficulty.updateHitbox();
-		add(levelDifficulty);
+		add(levelDifficulty);*/
 
-		var blueballedTxt:FlxText = new FlxText(20, 15 + 64, 0, "", 32);
-		blueballedTxt.text = "Blueballed: " + PlayState.deathCounter;
+		var blueballedTxt:FlxText = new FlxText(20, 15 + 40, 0, "", 32);
+		blueballedTxt.text = "Died: " + PlayState.deathCounter;
 		blueballedTxt.scrollFactor.set();
-		blueballedTxt.setFormat(Paths.font('vcr.ttf'), 32);
+		blueballedTxt.setFormat(Paths.font('comic.ttf'), 32);
 		blueballedTxt.updateHitbox();
 		add(blueballedTxt);
 
 		practiceText = new FlxText(20, 15 + 101, 0, "PRACTICE MODE", 32);
 		practiceText.scrollFactor.set();
-		practiceText.setFormat(Paths.font('vcr.ttf'), 32);
+		practiceText.setFormat(Paths.font('comic.ttf'), 32);
 		practiceText.x = FlxG.width - (practiceText.width + 20);
 		practiceText.updateHitbox();
 		practiceText.visible = PlayState.instance.practiceMode;
@@ -108,28 +114,46 @@ class PauseSubState extends MusicBeatSubstate
 
 		var chartingText:FlxText = new FlxText(20, 15 + 101, 0, "CHARTING MODE", 32);
 		chartingText.scrollFactor.set();
-		chartingText.setFormat(Paths.font('vcr.ttf'), 32);
+		chartingText.setFormat(Paths.font('comic.ttf'), 32);
 		chartingText.x = FlxG.width - (chartingText.width + 20);
 		chartingText.y = FlxG.height - (chartingText.height + 20);
 		chartingText.updateHitbox();
 		chartingText.visible = PlayState.chartingMode;
 		add(chartingText);
 
+		pausedBack = new FlxSprite(0, 50).loadGraphic(Paths.image("uiAssets/pausednText"));
+		pausedBack.setGraphicSize(Std.int(pausedBack.width * 0.5));
+		pausedBack.centerOrigin();
+		pausedBack.x = -920;
+		add(pausedBack);
+
+		pausedText = new FlxText(-370, 50, FlxG.width, "PAUSED", 80);
+		pausedText.setFormat(Paths.font('comic.ttf'), CENTER, 80);
+		pausedText.x = pausedBack.x;
+		pausedText.y = pausedBack.y;
+		add(pausedText);
+
 		blueballedTxt.alpha = 0;
-		levelDifficulty.alpha = 0;
+		//levelDifficulty.alpha = 0;
 		levelInfo.alpha = 0;
 
 		levelInfo.x = FlxG.width - (levelInfo.width + 20);
-		levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
+		//levelDifficulty.x = FlxG.width - (levelDifficulty.width + 20);
 		blueballedTxt.x = FlxG.width - (blueballedTxt.width + 20);
 
 		FlxTween.tween(bg, {alpha: 0.6}, 0.4, {ease: FlxEase.quartInOut});
 		FlxTween.tween(levelInfo, {alpha: 1, y: 20}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3});
-		FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
+		//FlxTween.tween(levelDifficulty, {alpha: 1, y: levelDifficulty.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.5});
 		FlxTween.tween(blueballedTxt, {alpha: 1, y: blueballedTxt.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.7});
+		FlxTween.tween(pausedBack, {x: -340}, 0.4, {ease: FlxEase.quartInOut});
 
 		grpMenuShit = new FlxTypedGroup<Alphabet>();
 		add(grpMenuShit);
+
+		/*selectorLeft = new Alphabet(0, 0, '>', true);
+		add(selectorLeft);
+		selectorRight = new Alphabet(0, 0, '<', true);
+		add(selectorRight);*/
 
 		regenMenu();
 		cameras = [FlxG.cameras.list[FlxG.cameras.list.length - 1]];
@@ -245,13 +269,15 @@ class PauseSubState extends MusicBeatSubstate
 				case "End Song":
 					close();
 					PlayState.instance.finishSong(true);
+				case "Options":
+					MusicBeatState.switchState(new options.OptionsState());
 				case 'Toggle Botplay':
 					PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 					PlayState.changedDifficulty = true;
 					PlayState.instance.botplayTxt.visible = PlayState.instance.cpuControlled;
 					PlayState.instance.botplayTxt.alpha = 1;
 					PlayState.instance.botplaySine = 0;
-				case "Exit to menu":
+				case "Back to menu":
 					PlayState.deathCounter = 0;
 					PlayState.seenCutscene = false;
 
@@ -329,6 +355,10 @@ class PauseSubState extends MusicBeatSubstate
 			if (item.targetY == 0)
 			{
 				item.alpha = 1;
+				/*selectorLeft.x = item.x - 63;
+				selectorLeft.y = item.y;
+				selectorRight.x = item.x + item.width + 15;
+				selectorRight.y = item.y;*/
 				// item.setGraphicSize(Std.int(item.width));
 
 				if(item == skipTimeTracker)
@@ -350,14 +380,15 @@ class PauseSubState extends MusicBeatSubstate
 
 		for (i in 0...menuItems.length) {
 			var item = new Alphabet(90, 320, menuItems[i], true);
-			item.isMenuItem = true;
+			item.isCenterItem = true;
 			item.targetY = i;
+			item.screenCenter(X);
 			grpMenuShit.add(item);
 
 			if(menuItems[i] == 'Skip Time')
 			{
 				skipTimeText = new FlxText(0, 0, 0, '', 64);
-				skipTimeText.setFormat(Paths.font("vcr.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				skipTimeText.setFormat(Paths.font("comic.ttf"), 64, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 				skipTimeText.scrollFactor.set();
 				skipTimeText.borderSize = 2;
 				skipTimeTracker = item;

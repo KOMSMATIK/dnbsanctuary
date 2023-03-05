@@ -16,7 +16,7 @@ class ClientPrefs {
 	public static var noteSplashes:Bool = true;
 	public static var lowQuality:Bool = false;
 	public static var shaders:Bool = true;
-	public static var framerate:Int = 60;
+	public static var framerate:Int = 137;
 	public static var cursing:Bool = true;
 	public static var violence:Bool = true;
 	public static var camZooms:Bool = true;
@@ -61,6 +61,11 @@ class ClientPrefs {
 	public static var goodWindow:Int = 90;
 	public static var badWindow:Int = 135;
 	public static var safeFrames:Float = 10;
+
+	public static var periculumTrophy:Bool = false;
+	public static var gokuTrophy:Bool = false;
+	public static var sanctuaryTrophy:Bool = false;
+	public static var dnbTrophy:Bool = false;
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
 	public static var keyBinds:Map<String, Array<FlxKey>> = [
@@ -132,6 +137,12 @@ class ClientPrefs {
 		FlxG.save.data.checkForUpdates = checkForUpdates;
 		FlxG.save.data.comboStacking = comboStacking;
 		FlxG.save.data.comboCamera = comboCamera;
+
+
+		FlxG.save.data.periculumTrophy = periculumTrophy;
+		FlxG.save.data.gokuTrophy = gokuTrophy;
+		FlxG.save.data.sanctuaryTrophy = sanctuaryTrophy;
+		FlxG.save.data.dnbTrophy = dnbTrophy;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();

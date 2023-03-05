@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jackalsanctuaried.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Margret thatcher0000" x="2" y="2" width="1010" height="908" frameX="-32" frameY="-25" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0001" x="1014" y="2" width="1031" height="926" frameX="-8" frameY="-8" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0002" x="2047" y="2" width="1031" height="926" frameX="-8" frameY="-8" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0003" x="3080" y="2" width="1038" height="927" frameX="0" frameY="-6" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0004" x="4120" y="2" width="1039" height="928" frameX="0" frameY="-6" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0005" x="5161" y="2" width="1031" height="934" frameX="-7" frameY="0" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0006" x="6194" y="2" width="1031" height="933" frameX="-8" frameY="0" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0007" x="2" y="938" width="1026" height="932" frameX="-13" frameY="-2" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0008" x="1030" y="938" width="1025" height="932" frameX="-13" frameY="-2" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0009" x="2057" y="938" width="1022" height="929" frameX="-17" frameY="-4" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0010" x="3081" y="938" width="1022" height="929" frameX="-17" frameY="-5" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0011" x="4105" y="938" width="1011" height="954" frameX="-27" frameY="-10" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0012" x="5118" y="938" width="1007" height="928" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0013" x="6127" y="938" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0014" x="7136" y="938" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0015" x="2" y="1894" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0016" x="1011" y="1894" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0017" x="2020" y="1894" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0018" x="3028" y="1894" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0019" x="4037" y="1894" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0020" x="5046" y="1894" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0021" x="6054" y="1894" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0022" x="7063" y="1894" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0023" x="2" y="2817" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0024" x="1010" y="2817" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0025" x="7063" y="1894" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0026" x="2" y="2817" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0027" x="3028" y="1894" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0028" x="2019" y="2817" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0029" x="3028" y="2817" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0030" x="4036" y="2817" width="1007" height="921" frameX="-32" frameY="-12" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0031" x="5045" y="2817" width="1007" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="Margret thatcher0032" x="3028" y="2817" width="1006" height="921" frameX="-32" frameY="-13" frameWidth="1042" frameHeight="964"/>
+	<SubTexture name="jackaldown0000" x="6054" y="2817" width="1004" height="991" frameX="-7" frameY="-13" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0001" x="7060" y="2817" width="1003" height="990" frameX="-8" frameY="-14" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0002" x="2" y="3810" width="1010" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0003" x="1014" y="3810" width="1009" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0004" x="2025" y="3810" width="1009" height="996" frameX="-1" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0005" x="2" y="3810" width="1010" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0006" x="1014" y="3810" width="1009" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0007" x="2025" y="3810" width="1009" height="996" frameX="-1" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0008" x="2" y="3810" width="1010" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0009" x="1014" y="3810" width="1009" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0010" x="2025" y="3810" width="1009" height="996" frameX="-1" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0011" x="2" y="3810" width="1010" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0012" x="1014" y="3810" width="1009" height="996" frameX="0" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackaldown0013" x="2025" y="3810" width="1009" height="996" frameX="-1" frameY="0" frameWidth="1011" frameHeight="1004"/>
+	<SubTexture name="jackalidle 0000" x="3036" y="3810" width="1002" height="889" frameX="-30" frameY="-31" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0001" x="4040" y="3810" width="1001" height="889" frameX="-30" frameY="-31" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0002" x="5043" y="3810" width="1007" height="907" frameX="-17" frameY="-13" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0003" x="6052" y="3810" width="1007" height="908" frameX="-17" frameY="-13" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0004" x="7061" y="3810" width="1017" height="917" frameX="-3" frameY="-3" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0005" x="2" y="4808" width="1017" height="917" frameX="-3" frameY="-4" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0006" x="1021" y="4808" width="1019" height="919" frameX="-1" frameY="-1" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0007" x="2042" y="4808" width="1019" height="920" frameX="-1" frameY="-1" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0008" x="3063" y="4808" width="1019" height="920" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0009" x="4084" y="4808" width="1019" height="921" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0010" x="5105" y="4808" width="1018" height="921" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0011" x="3063" y="4808" width="1019" height="920" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0012" x="4084" y="4808" width="1019" height="921" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalidle 0013" x="5105" y="4808" width="1018" height="921" frameX="0" frameY="0" frameWidth="1032" frameHeight="921"/>
+	<SubTexture name="jackalleft0000" x="6125" y="4808" width="1143" height="858" frameX="0" frameY="0" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0001" x="2" y="5731" width="1142" height="857" frameX="0" frameY="-1" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0002" x="1146" y="5731" width="1074" height="845" frameX="-36" frameY="-13" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0003" x="2222" y="5731" width="1074" height="844" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0004" x="3298" y="5731" width="1073" height="845" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0005" x="1146" y="5731" width="1074" height="845" frameX="-36" frameY="-13" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0006" x="2222" y="5731" width="1074" height="844" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0007" x="3298" y="5731" width="1073" height="845" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0008" x="1146" y="5731" width="1074" height="845" frameX="-36" frameY="-13" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0009" x="2222" y="5731" width="1074" height="844" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0010" x="3298" y="5731" width="1073" height="845" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0011" x="1146" y="5731" width="1074" height="845" frameX="-36" frameY="-13" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0012" x="2222" y="5731" width="1074" height="844" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalleft0013" x="3298" y="5731" width="1073" height="845" frameX="-36" frameY="-14" frameWidth="1143" frameHeight="859"/>
+	<SubTexture name="jackalright0000" x="4373" y="5731" width="1036" height="850" frameX="0" frameY="0" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0001" x="5411" y="5731" width="1035" height="851" frameX="0" frameY="0" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0002" x="6448" y="5731" width="1016" height="818" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0003" x="2" y="6590" width="1016" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0004" x="1020" y="6590" width="1017" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0005" x="6448" y="5731" width="1016" height="818" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0006" x="2" y="6590" width="1016" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0007" x="1020" y="6590" width="1017" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0008" x="6448" y="5731" width="1016" height="818" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0009" x="2" y="6590" width="1016" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0010" x="1020" y="6590" width="1017" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0011" x="6448" y="5731" width="1016" height="818" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0012" x="2" y="6590" width="1016" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalright0013" x="1020" y="6590" width="1017" height="819" frameX="-24" frameY="-32" frameWidth="1041" frameHeight="851"/>
+	<SubTexture name="jackalup0000" x="2039" y="6590" width="985" height="1023" frameX="0" frameY="-1" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0001" x="3026" y="6590" width="984" height="1024" frameX="-1" frameY="0" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0002" x="4012" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0003" x="4995" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0004" x="5978" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0005" x="4012" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0006" x="4995" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0007" x="5978" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0008" x="4012" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0009" x="4995" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0010" x="5978" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0011" x="4012" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0012" x="4995" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0013" x="5978" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+	<SubTexture name="jackalup0014" x="4012" y="6590" width="981" height="997" frameX="-19" frameY="-27" frameWidth="1000" frameHeight="1024"/>
+</TextureAtlas>

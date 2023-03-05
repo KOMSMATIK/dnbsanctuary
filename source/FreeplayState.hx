@@ -50,13 +50,14 @@ class FreeplayState extends MusicBeatState
 	private var curPlaying:Bool = false;
 	private var groupIcon:FlxSprite;
 	private var insideGroup:Bool = false;
-	private var groupCategory:Array<String> = ['base'/*, 'sanctuary', 'extras', 'joke'*/];
+	private var groupCategory:Array<String> = ['base', 'sanctuary', 'extras', 'joke'];
 
 	public static var doodoo:Bool = false;
 	public static var allowInput:Bool = true;
 	private var thisGroup:Int = 0;
 	var loadingTheGroup:Bool = false;
 	public var oogaBooga:Bool = false;
+	var inCurCategory:Bool = false;
 
 	private var iconArray:Array<HealthIcon> = [];
 
@@ -69,7 +70,6 @@ class FreeplayState extends MusicBeatState
 	var goku:FlxSprite;
 	var myLittleGoku:Bool = false;
 
-	//the funny (Chett wanted playback rate back)
 	var codeKey:Array<String> = ['CRACK'];
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var keysBuffer:String = '';
@@ -82,7 +82,7 @@ class FreeplayState extends MusicBeatState
 		
 		persistentUpdate = true;
 		PlayState.isStoryMode = false;
-		WeekData.reloadWeekFiles(false);
+		//WeekData.reloadWeekFiles(false);
 
 		#if desktop
 		// Updating Discord Rich Presence
@@ -91,7 +91,7 @@ class FreeplayState extends MusicBeatState
 
 		Application.current.window.title = Main.appTitle;
 
-		for (i in 0...WeekData.weeksList.length) {
+		/*for (i in 0...WeekData.weeksList.length) {
 			if(weekIsLocked(WeekData.weeksList[i])) continue;
 
 			var leWeek:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
@@ -115,7 +115,7 @@ class FreeplayState extends MusicBeatState
 				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 			}
 		}
-		WeekData.loadTheFirstEnabledMod();
+		WeekData.loadTheFirstEnabledMod();*/
 
 		/*		//KIND OF BROKEN NOW AND ALSO PRETTY USELESS//
 
@@ -128,8 +128,9 @@ class FreeplayState extends MusicBeatState
 			}
 		}*/
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(MainMenuState.setBG());
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
+		bg.setGraphicSize(Std.int(bg.width * 0.9));
 		bg.color = 0xFF4059E1;
 		add(bg);
 		bg.screenCenter();
@@ -184,7 +185,7 @@ class FreeplayState extends MusicBeatState
 			// DONT PUT X IN THE FIRST PARAMETER OF new ALPHABET() !!
 			// songText.screenCenter(X);
 		}
-		WeekData.setDirectoryFromWeek();
+		//WeekData.setDirectoryFromWeek();
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("comic.ttf"), 32, FlxColor.WHITE, RIGHT);
@@ -202,8 +203,8 @@ class FreeplayState extends MusicBeatState
 
 
 		if(curSelected >= songs.length) curSelected = 0;
-	    /*bg.color = songs[curSelected].color;
-		intendedColor = bg.color;*/
+	    bg.color = songs[curSelected].color;
+		intendedColor = bg.color;
 
 		if(lastDifficultyName == '')
 		{
@@ -264,11 +265,20 @@ class FreeplayState extends MusicBeatState
 		{
 			switch (groupCategory[thisGroup].toLowerCase()) // google drive 2
 			{
-				case 'main':
-					addSong('slapdash', 1, 'bambi', 0xFF259E51);
-					addSong('exasperated', 1, 'bambi', 0xFF259E51);
-					addSong('cordial', 1, 'dave', 0xFF4826DC);
-					addSong('delightful', 1, 'dave', 0xFF4826DC);
+				case 'base':
+					addSong('delightful', 0, 'dave', 0xFF4826DC);
+					addSong('tranquility', 0, 'dave', 0xFF4826DC);
+					addSong('cordial', 0, 'dave', 0xFF4826DC);
+					addSong('harvest', 0, 'bambi', 0xFF259E51);
+					addSong('slapdash', 0, 'bambi', 0xFF259E51);
+					addSong('exasperated', 0, 'bambi', 0xFF259E51);
+				case 'sanctuary':
+					addSong('rodger', 0, 'rodger', 0xFF3366CC);
+				case 'extras':
+					addSong('dotty', 0, 'tambi', 0xFF5B15CA);
+				case 'joke':
+					addSong('log', 0, 'timber', 0xFFFBC62C); // crash prevent
+					
 
 			}
 			trace('freeplay array load 2.0');
@@ -281,10 +291,10 @@ class FreeplayState extends MusicBeatState
 		songs.push(new SongMetadata(songName, weekNum, songCharacter, color));
 	}
 
-	function weekIsLocked(name:String):Bool {
+	/*function weekIsLocked(name:String):Bool {
 		var leWeek:WeekData = WeekData.weeksLoaded.get(name);
 		return (!leWeek.startUnlocked && leWeek.weekBefore.length > 0 && (!StoryMenuState.weekCompleted.exists(leWeek.weekBefore) || !StoryMenuState.weekCompleted.get(leWeek.weekBefore)));
-	}
+	}*/
 
 	public function ChangeGroup(change:Int) 
 		{
@@ -405,6 +415,7 @@ class FreeplayState extends MusicBeatState
 							var word:String = wordRaw.toUpperCase(); //just for being sure you're doing it right
 							if (keysBuffer.contains(word))
 							{
+								keysBuffer = ""; // prevent from you pressing any key and it putting you back here nuh uh.
 								allowInput = false;
 								FlxG.sound.music.fadeOut(1, 0);
 								white.visible = true;
@@ -474,9 +485,9 @@ class FreeplayState extends MusicBeatState
 		if (controls.BACK && allowInput)
 		{
 			persistentUpdate = false;
-			/*if(colorTween != null) {
+			if(colorTween != null) {
 				colorTween.cancel();
-			}*/
+			}
 			FlxG.sound.play(Paths.sound('cancelMenu'), 1.2);
 			MusicBeatState.switchState(new MainMenuState());
 		}
@@ -541,16 +552,11 @@ class FreeplayState extends MusicBeatState
 			PlayState.isStoryMode = false;
 			PlayState.storyDifficulty = curDifficulty;
 
-			trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
-			/*if(colorTween != null) {
+			//trace('CURRENT WEEK: ' + WeekData.getWeekFileName());
+			if(colorTween != null) {
 				colorTween.cancel();
-			}*/
-			
-			if (FlxG.keys.pressed.SHIFT){
-				LoadingState.loadAndSwitchState(new ChartingState());
-			}else{
-				LoadingState.loadAndSwitchState(new PlayState());
 			}
+			LoadingState.loadAndSwitchState(new PlayState());
 
 			FlxG.sound.music.volume = 0;
 					
@@ -605,7 +611,7 @@ class FreeplayState extends MusicBeatState
 		if (curSelected >= songs.length)
 			curSelected = 0;
 			
-		/*var newColor:Int = songs[curSelected].color;
+		var newColor:Int = songs[curSelected].color;
 		if(newColor != intendedColor) {
 			if(colorTween != null) {
 				colorTween.cancel();
@@ -616,7 +622,7 @@ class FreeplayState extends MusicBeatState
 					colorTween = null;
 				}
 			});
-		}*/
+		}
 
 		// selector.y = (70 * curSelected) + 30;
 
@@ -653,7 +659,7 @@ class FreeplayState extends MusicBeatState
 		PlayState.storyWeek = songs[curSelected].week;
 
 		CoolUtil.difficulties = CoolUtil.defaultDifficulties.copy();
-		var diffStr:String = WeekData.getCurrentWeek().difficulties;
+		var diffStr:String = "Normal";
 		if(diffStr != null) diffStr = diffStr.trim(); //Fuck you HTML5
 
 		if(diffStr != null && diffStr.length > 0)

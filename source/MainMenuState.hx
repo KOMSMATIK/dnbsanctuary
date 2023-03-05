@@ -56,9 +56,16 @@ class MainMenuState extends MusicBeatState
 	];
 
 	var magenta:FlxSprite;
+	var bg:FlxSprite;
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
+
+	var tabel:FlxSprite;
+	var dnbTrophy:FlxSprite;
+	var sanctuaryTrophy:FlxSprite;
+	var periculumTrophy:FlxSprite;
+	var gokuTrophy:FlxSprite;
 
 	var menuItemBG:FlxSprite;
 	var menuText:FlxText;
@@ -68,12 +75,18 @@ class MainMenuState extends MusicBeatState
 	var finishedFunnyMove:Bool = false;
 	var allowInput:Bool = false;
 
+	public static var menuBackgrounds:Array<String> =
+	[
+		'menubackgrounds/1',
+		'menubackgrounds/2'
+	];
+
 	override function create()
 	{
-		#if MODS_ALLOWED
+		/*#if MODS_ALLOWED
 		Paths.pushGlobalMods();
 		#end
-		WeekData.loadTheFirstEnabledMod();
+		WeekData.loadTheFirstEnabledMod();*/
 
 		#if desktop
 		// Updating Discord Rich Presence
@@ -96,14 +109,15 @@ class MainMenuState extends MusicBeatState
 
 		persistentUpdate = persistentDraw = true;
 
-		ramdom = FlxG.random.getObject(getRandomTextShit());
+		//ramdom = FlxG.random.getObject(getRandomTextShit());
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		bg = new FlxSprite(-80).loadGraphic(setBG());
 		//bg.scrollFactor.set(0, yScroll);
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		bg.setGraphicSize(Std.int(bg.width * 0.9));
 		bg.updateHitbox();
 		bg.screenCenter();
+		bg.color = 0xFFF5DB4B;
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
@@ -112,9 +126,9 @@ class MainMenuState extends MusicBeatState
 		add(camFollow);
 		add(camFollowPos);
 
-		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
+		magenta = new FlxSprite(-80).loadGraphic(bg.graphic);
 		//magenta.scrollFactor.set(0, yScroll);
-		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
+		magenta.setGraphicSize(Std.int(magenta.width * 0.9));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
@@ -137,11 +151,42 @@ class MainMenuState extends MusicBeatState
 		ramdomTextBG.alpha = 0.7;
 		add(ramdomTextBG);
 
-		ramdomText = new FlxText(0, -10, FlxG.width,"i Farted into my mic and then i made it a song", 32);
+		ramdomText = new FlxText(0, -10, FlxG.width, "", 32);
 		ramdomText.setFormat(Paths.font("comic.ttf"), 32, FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
 		ramdomText.borderSize = 1.25;
 		ramdomText.screenCenter(X);
 		add(ramdomText);
+
+		tabel = new FlxSprite(100, 310).loadGraphic(Paths.image('trophies/une_table'));
+		tabel.setGraphicSize(Std.int(tabel.width * 0.8));
+		tabel.screenCenter(X);
+		tabel.antialiasing = ClientPrefs.globalAntialiasing;
+		add(tabel);
+
+		dnbTrophy = new FlxSprite(220, 160).loadGraphic(Paths.image('trophies/dnbTrophy'));
+		dnbTrophy.setGraphicSize(Std.int(dnbTrophy.width * 0.8));
+		dnbTrophy.antialiasing = ClientPrefs.globalAntialiasing;
+		if(ClientPrefs.dnbTrophy)
+		    add(dnbTrophy);
+		
+
+		sanctuaryTrophy = new FlxSprite(420, 125).loadGraphic(Paths.image('trophies/sanctTrophy'));
+		sanctuaryTrophy.setGraphicSize(Std.int(sanctuaryTrophy.width * 0.8));
+		sanctuaryTrophy.antialiasing = ClientPrefs.globalAntialiasing;
+		if(ClientPrefs.sanctuaryTrophy)
+		    add(sanctuaryTrophy);
+		
+		periculumTrophy = new FlxSprite(600, 120).loadGraphic(Paths.image('trophies/periculumTrophy'));
+		periculumTrophy.setGraphicSize(Std.int(periculumTrophy.width * 0.8));
+		periculumTrophy.antialiasing = ClientPrefs.globalAntialiasing;
+		if(ClientPrefs.periculumTrophy)
+		    add(periculumTrophy);
+
+		gokuTrophy = new FlxSprite(800, 130).loadGraphic(Paths.image('trophies/gokuTrophy'));
+		gokuTrophy.setGraphicSize(Std.int(gokuTrophy.width * 0.8));
+		gokuTrophy.antialiasing = ClientPrefs.globalAntialiasing;
+		if(ClientPrefs.gokuTrophy)
+		    add(gokuTrophy);
 		
 		// magenta.scrollFactor.set();
 
@@ -293,7 +338,11 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'ost')
 				{
+<<<<<<< Updated upstream
 					CoolUtil.browserLoad('https://youtube.com/playlist?list=PLgyQbXt3iFsFj3O9VxIbzY5haJdfkwZ7v');
+=======
+					CoolUtil.browserLoad("https://youtube.com/playlist?list=PLgyQbXt3iFsFj3O9VxIbzY5haJdfkwZ7v");
+>>>>>>> Stashed changes
 				}
 				else
 				{
@@ -342,7 +391,7 @@ class MainMenuState extends MusicBeatState
 								switch (daChoice)
 								{
 									case 'story':
-										MusicBeatState.switchState(new StoryMenuState());
+										//MusicBeatState.switchState(new StoryMenuState());
 									case 'freeplay':
 										MusicBeatState.switchState(new FreeplayState());
 									#if MODS_ALLOWED
@@ -413,4 +462,10 @@ class MainMenuState extends MusicBeatState
 			}
 		});
 	}
+
+	public static function setBG():flixel.system.FlxAssets.FlxGraphicAsset
+		{
+			var chance:Int = FlxG.random.int(0, menuBackgrounds.length - 1);
+			return Paths.image(menuBackgrounds[chance]);
+		}
 }

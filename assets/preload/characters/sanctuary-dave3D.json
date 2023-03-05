@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "sanctDave3D idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "sanctDave3D down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "sanctDave3D up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "sanctDave3D right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "sanctDave3D left"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/sanctDave3D",
+	"position": [
+		-70,
+		100
+	],
+	"healthicon": "sanctuarydave3d",
+	"flip_x": false,
+	"healthbar_colors": [
+		63,
+		22,
+		227
+	],
+	"camera_position": [
+		0,
+		-60
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

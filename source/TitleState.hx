@@ -72,6 +72,9 @@ class TitleState extends MusicBeatState
 
 	var wackyImage:FlxSprite;
 
+	var charLeft:FlxSprite;
+	var charRight:FlxSprite;
+
 	var mustUpdate:Bool = false;
 
 	var titleJSON:TitleData;
@@ -79,6 +82,16 @@ class TitleState extends MusicBeatState
 	var KILLYOURSELF:Bool = false; // for some reason whenever i delete the flashing thing i get a bunch of errors so im just forcing it to never trigger gg ez 
 
 	public static var updateVersion:String = '';
+
+	public static var curCharLeft:Array<String> = 
+	[
+		'menucharacters/menuDave',
+	];
+
+	public static var curCharRight:Array<String> = 
+	[
+		'menucharacters/menuBambi',
+	];
 
 	override public function create():Void
 	{
@@ -258,7 +271,23 @@ class TitleState extends MusicBeatState
 		// bg.updateHitbox();
 		add(bg);
 
-		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
+		charLeft = new FlxSprite(100, 200).loadGraphic(setCharLeft());
+		charLeft.frames = Paths.getSparrowAtlas(setCharLeft());
+		//charLeft.screenCenter(Y);
+		charLeft.animation.addByPrefix('left', 'menu dave', 24, false);
+		charLeft.animation.play('left');
+		charLeft.updateHitbox();
+		charLeft.setGraphicSize(Std.int(charLeft.width * 0.7));
+		//add(charLeft);
+
+		/*charRight = new FlxSprite(600, 100).loadGraphic(setCharRight());
+		//charRight.screenCenter(Y);
+		charRight.updateHitbox();
+		charRight.setGraphicSize(Std.int(charRight.width * 0.7));
+		charRight.flipX = true;
+		add(charRight);*/
+
+		logoBl = new FlxSprite(0, -220);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
 
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
@@ -266,7 +295,7 @@ class TitleState extends MusicBeatState
 		logoBl.animation.play('bump');
 		logoBl.screenCenter(X);
 		logoBl.updateHitbox();
-		logoBl.setGraphicSize(Std.int(logoBl.width * 0.8));
+		logoBl.setGraphicSize(Std.int(logoBl.width * 0.7));
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
@@ -321,7 +350,7 @@ class TitleState extends MusicBeatState
 		titleText.antialiasing = ClientPrefs.globalAntialiasing;
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
-		titleText.screenCenter(X);
+		//titleText.screenCenter(X);
 		add(titleText);
 
 		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
@@ -519,6 +548,8 @@ class TitleState extends MusicBeatState
 
 		if(logoBl != null)
 			logoBl.animation.play('bump', true);
+		if(charLeft != null)
+			charLeft.animation.play('left', true);
 
 		/*if(gfDance != null) {
 			danceLeft = !danceLeft;
@@ -613,4 +644,15 @@ class TitleState extends MusicBeatState
 		skippedIntro = true;
 		}
 	}
+	public static function setCharLeft():flixel.system.FlxAssets.FlxGraphicAsset
+		{
+			var chance:Int = FlxG.random.int(0, curCharLeft.length - 1);
+			return Paths.image(curCharLeft[chance]);
+		}
+
+	public static function setCharRight():flixel.system.FlxAssets.FlxGraphicAsset
+		{
+			var chance:Int = FlxG.random.int(0, curCharRight.length - 1);
+			return Paths.image(curCharRight[chance]);
+		}	
 }

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="qtButton.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="qtButton 0000" x="672" y="329" width="322" height="321" frameX="0" frameY="0" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtButton 0001" x="350" y="329" width="322" height="322"/>
+	<SubTexture name="qtButton 0002" x="0" y="349" width="322" height="322"/>
+	<SubTexture name="qtConfirm 0000" x="322" y="651" width="255" height="255" frameX="-47" frameY="-47" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0001" x="322" y="651" width="255" height="255" frameX="-47" frameY="-47" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0002" x="672" y="650" width="302" height="301" frameX="-24" frameY="-24" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0003" x="672" y="650" width="302" height="301" frameX="-24" frameY="-24" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0004" x="0" y="0" width="350" height="349"/>
+	<SubTexture name="qtConfirm 0005" x="0" y="0" width="350" height="349"/>
+	<SubTexture name="qtConfirm 0006" x="350" y="0" width="328" height="329" frameX="-11" frameY="-10" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0007" x="350" y="0" width="328" height="329" frameX="-11" frameY="-10" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0008" x="672" y="329" width="322" height="321" frameX="-14" frameY="-14" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0009" x="672" y="329" width="322" height="321" frameX="-14" frameY="-14" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0010" x="672" y="329" width="322" height="321" frameX="-14" frameY="-14" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0011" x="672" y="329" width="322" height="321" frameX="-14" frameY="-14" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0012" x="678" y="0" width="304" height="303" frameX="-23" frameY="-23" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0013" x="678" y="0" width="304" height="303" frameX="-23" frameY="-23" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0014" x="0" y="671" width="183" height="183" frameX="-83" frameY="-83" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0015" x="0" y="671" width="183" height="183" frameX="-83" frameY="-83" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0016" x="322" y="349" width="16" height="15" frameX="-167" frameY="-167" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0017" x="322" y="349" width="16" height="15" frameX="-167" frameY="-167" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0018" x="0" y="0" width="-214748315" height="-214748315" frameX="-107373218" frameY="-107373860" frameWidth="350" frameHeight="349"/>
+	<SubTexture name="qtConfirm 0019" x="0" y="0" width="-214748315" height="-214748315" frameX="-107373218" frameY="-107373860" frameWidth="350" frameHeight="349"/>
+</TextureAtlas>
