@@ -1,9 +1,7 @@
 package;
 
-#if MODS_ALLOWED
 import sys.io.File;
 import sys.FileSystem;
-#end
 import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
 import haxe.Json;
@@ -26,6 +24,7 @@ typedef WeekFile =
 	var hideStoryMode:Bool;
 	var hideFreeplay:Bool;
 	var difficulties:String;
+	var freeplayCategory:String;
 }
 
 class WeekData {
@@ -46,6 +45,7 @@ class WeekData {
 	public var hideStoryMode:Bool;
 	public var hideFreeplay:Bool;
 	public var difficulties:String;
+	public var freeplayCategory:String;
 
 	public var fileName:String;
 
@@ -62,7 +62,8 @@ class WeekData {
 			hiddenUntilUnlocked: false,
 			hideStoryMode: false,
 			hideFreeplay: false,
-			difficulties: ''
+			difficulties: '',
+			freeplayCategory: "dnb"
 		};
 		return weekFile;
 	}
@@ -81,6 +82,7 @@ class WeekData {
 		hideStoryMode = weekFile.hideStoryMode;
 		hideFreeplay = weekFile.hideFreeplay;
 		difficulties = weekFile.difficulties;
+		freeplayCategory = weekFile.freeplayCategory;
 
 		this.fileName = fileName;
 	}
@@ -156,7 +158,6 @@ class WeekData {
 			}
 		}
 
-		#if MODS_ALLOWED
 		for (i in 0...directories.length) {
 			var directory:String = directories[i] + 'weeks/';
 			if(FileSystem.exists(directory)) {
@@ -180,7 +181,7 @@ class WeekData {
 				}
 			}
 		}
-		#end
+		return weeksLoaded;
 	}
 
 	private static function addWeek(weekToCheck:String, path:String, directory:String, i:Int, originalLength:Int)
@@ -201,6 +202,7 @@ class WeekData {
 				{
 					weeksLoaded.set(weekToCheck, weekFile);
 					weeksList.push(weekToCheck);
+					trace(weeksList);
 				}
 			}
 		}

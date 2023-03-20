@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Delightful", "dave", [146, 113, 253]],
+		["Tranquility", "dave", [146, 113, 253]],
+		["Cordial", "dave", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Dave",
+	"weekBefore": "daveweek",
+	"weekName": "Dave week",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false,
+	"freeplayCategory": "dnb"
+}
