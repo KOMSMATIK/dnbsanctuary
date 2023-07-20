@@ -485,6 +485,8 @@ class PlayState extends MusicBeatState
 					curStage = 'tank';
 				case 'slapdash':
 					curStage = 'bamb';
+				case 'gulag':
+					curStage = 'aleksander';
 				case 'log':
 					curStage = 'timb';
 				default:
@@ -604,6 +606,10 @@ class PlayState extends MusicBeatState
 				daveOverlay = new BGSprite('backgrounds/dave/dOverlay', 0, 0, 0, 0);
 				daveOverlay.screenCenter();
 				daveOverlay.setGraphicSize(Std.int(daveOverlay.width * 3));
+
+			case 'aleksander':
+				var a:BGSprite = new BGSprite('backgrounds/a/a', -400,-200, 1, 1);
+				add(a);
 
 			case 'tambi':
 				var back:BGSprite = new BGSprite('backgrounds/tambi/back', -100, -0, 1, 1);
@@ -985,10 +991,12 @@ class PlayState extends MusicBeatState
 				credThing = "xonthebeat";
 			case "log":
 				credThing = "Skib";
+			case "gulag":
+				credThing = "Lexicord";
 			case "delightful":
-				credThing = "Mystically";
+				credThing = "Big Chungus";
 			case "tranquility" | "harvest":
-				credThing = "ChettXI";
+				credThing = "Mistamemekek";
 			case "rodger":
 				credThing = "Exazeeiscool";
 			case "exasperated":
@@ -5473,6 +5481,12 @@ class PlayState extends MusicBeatState
 						camZoomingSnap = 4;
 						camZoomingDecay = 1;
 				}		
+				case "gulag":
+					switch(curBeat) // update SongEventSource
+					{
+						case 1:
+							PlatformUtil.sendWindowsNotification('In Soviet Russia...', '...your PC is OUR PC!');
+					}
 		}
 
 		setOnLuas('curBeat', curBeat); //DAWGG?????

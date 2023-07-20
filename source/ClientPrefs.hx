@@ -62,12 +62,10 @@ class ClientPrefs {
 	public static var badWindow:Int = 135;
 	public static var safeFrames:Float = 10;
 
-	public static var trophies = [
-		"dnbTrophy" => true,
-		"sanctuaryTrophy" => true,
-		"periculumTrophy" => true,
-		"gokuTrophy" => true
-	];
+	public static var periculumTrophy:Bool = false;
+	public static var gokuTrophy:Bool = false;
+	public static var sanctuaryTrophy:Bool = false;
+	public static var dnbTrophy:Bool = false;
 
 	//Every key has two binds, add your key bind down here and then add your control on options/ControlsSubState.hx and Controls.hx
 	public static var keyBinds:Map<String, Array<FlxKey>> = [
@@ -140,7 +138,11 @@ class ClientPrefs {
 		FlxG.save.data.comboStacking = comboStacking;
 		FlxG.save.data.comboCamera = comboCamera;
 
-		FlxG.save.data.trophies = trophies;
+
+		FlxG.save.data.periculumTrophy = periculumTrophy;
+		FlxG.save.data.gokuTrophy = gokuTrophy;
+		FlxG.save.data.sanctuaryTrophy = sanctuaryTrophy;
+		FlxG.save.data.dnbTrophy = dnbTrophy;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
@@ -153,9 +155,6 @@ class ClientPrefs {
 	public static function loadPrefs() {
 		if(FlxG.save.data.downScroll != null) {
 			downScroll = FlxG.save.data.downScroll;
-		}
-		if(FlxG.save.data.trophies != null) {
-			trophies = FlxG.save.data.trophies;
 		}
 		if(FlxG.save.data.middleScroll != null) {
 			middleScroll = FlxG.save.data.middleScroll;

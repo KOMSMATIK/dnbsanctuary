@@ -28,8 +28,6 @@ class MusicBeatState extends FlxUIState
 	private var controls(get, never):Controls;
 
 	public static var camBeat:FlxCamera;
-	public static var shaderers = ["bruhisimo" => null];
-	public var Shaders = shaderers;
 
 	inline function get_controls():Controls
 		return PlayerSettings.player1.controls;
@@ -82,11 +80,6 @@ class MusicBeatState extends FlxUIState
 			stepsToDo += Math.round(beats * 4);
 			sectionHit();
 		}
-	}
-	public function addShader(shaderName:String, camera:FlxCamera) {
-		var shader = new flixel.addons.display.FlxRuntimeShader(openfl.Assets.getText(Paths.shaderFragment(shaderName)));
-		camera.filters.push(new openfl.filters.ShaderFilter(shader));
-		shaderers[shaderName] = shader;
 	}
 
 	private function rollbackSection():Void

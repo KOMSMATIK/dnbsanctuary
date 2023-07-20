@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				18,
+				-37
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "madbambdown"
+		},
+		{
+			"offsets": [
+				45,
+				48
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "madbambup"
+		},
+		{
+			"offsets": [
+				-93,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "madbambright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				220,
+				203
+			],
+			"anim": "phonesmash",
+			"fps": 24,
+			"name": "madbambphonesmash",
+			"indices": []
+		},
+		{
+			"offsets": [
+				140,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "madbambeft"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "madbambidle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bambi_fnf_screwed",
+	"position": [
+		-270,
+		-10
+	],
+	"healthicon": "bambi",
+	"flip_x": false,
+	"healthbar_colors": [
+		37,
+		158,
+		81
+	],
+	"camera_position": [
+		70,
+		300
+	],
+	"sing_duration": 6.1,
+	"scale": 0.4
+}
