@@ -273,14 +273,16 @@ class FreeplayState extends MusicBeatState
 				case 'sanctuary':
 					addSong('log', 0, 'timber', 0xFFFBC62C);
 					addSong('scatterbrain', 0, 'gome', FlxColor.fromRGB(255, 0, 255));
-					addSong('fruitsnack', 0, 'jackal', FlxColor.fromRGB(255, 0, 255));
+					addSong('fruitsnack', 0, 'jackal', FlxColor.fromRGB(23, 91, 92));
 					addSong('midwest', 0, 'icy', FlxColor.fromRGB(134, 228, 251));
+					addSong('gangsta', 0, 'biplopblo', FlxColor.fromRGB(255,51,51));
 					addSong('rodger', 0, 'rodger', 0xFF3366CC);
 				case 'extras':
 					addSong('dotty', 0, 'tambi', FlxColor.fromRGB(105, 122, 249));
+					addSong('death-killer', 0, 'mmk', FlxColor.fromRGB(102, 102, 153));
 				case 'joke':
 					addSong('kekalicious', 0, 'kekbi', FlxColor.fromRGB(62, 210, 69));
-					addSong('gulag', 0, 'aleks', FlxColor.fromRGB(62, 210, 69)); // to prevent crashing if you add a new category just fuckin add some random song that doesnt belong there
+					addSong('gulag', 0, 'aleks', FlxColor.fromRGB(255,255,255)); // to prevent crashing if you add a new category just fuckin add some random song that doesnt belong there
 					
 
 			}

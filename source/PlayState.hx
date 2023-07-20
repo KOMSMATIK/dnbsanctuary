@@ -995,7 +995,7 @@ class PlayState extends MusicBeatState
 				credThing = "xonthebeat";
 			case "log" | "fruitsnack" | "scatterbrain":
 				credThing = "Skib";
-			case "gulag":
+			case "gulag" | "death-killer":
 				credThing = "Lexicord";
 			case "delightful":
 				credThing = "Big Chungus";
@@ -2531,7 +2531,7 @@ class PlayState extends MusicBeatState
 	public function updateScore(miss:Bool = false)
 	{
 		scoreTxt.text = 'Score: ' + songScore
-		+ ' | Combo Breaks: ' + songMisses
+		+ ' | Combo Break(s): ' + songMisses
 		+ ' | Accuracy: ' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%';
 		
 		if(instakillOnMiss)

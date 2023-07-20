@@ -78,7 +78,9 @@ class MainMenuState extends MusicBeatState
 	public static var menuBackgrounds:Array<String> =
 	[
 		'menubackgrounds/1',
-		'menubackgrounds/2'
+		'menubackgrounds/2',
+		'menubackgrounds/3',
+		'menubackgrounds/4'
 	];
 
 	override function create()

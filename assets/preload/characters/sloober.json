@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				-90
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "idle",
+			"loop": false,
+			"name": "sloober idle"
+		},
+		{
+			"offsets": [
+				-5,
+				-90
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "sloober left"
+		},
+		{
+			"offsets": [
+				-4,
+				-90
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "sloober down"
+		},
+		{
+			"offsets": [
+				-5,
+				-77
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "sloober up"
+		},
+		{
+			"offsets": [
+				-8,
+				-90
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "sloober right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sloober",
+	"position": [
+		-220,
+		-20
+	],
+	"healthicon": "slooberICONS",
+	"flip_x": false,
+	"healthbar_colors": [
+		42,
+		42,
+		42
+	],
+	"camera_position": [
+		180,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

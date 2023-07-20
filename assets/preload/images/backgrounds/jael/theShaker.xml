@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="theShaker.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="theShaker0000" x="596" y="314" width="203" height="311" frameX="0" frameY="-19" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0001" x="596" y="314" width="203" height="311" frameX="0" frameY="-19" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0002" x="592" y="0" width="203" height="314" frameX="-21" frameY="-16" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0003" x="592" y="0" width="203" height="314" frameX="-21" frameY="-16" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0004" x="195" y="323" width="201" height="319" frameX="-7" frameY="-11" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0005" x="195" y="323" width="201" height="319" frameX="-7" frameY="-11" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0006" x="396" y="327" width="200" height="320" frameX="-26" frameY="-10" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0007" x="396" y="327" width="200" height="320" frameX="-26" frameY="-10" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0008" x="195" y="0" width="199" height="323" frameX="-18" frameY="-7" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0009" x="195" y="0" width="199" height="323" frameX="-18" frameY="-7" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0010" x="195" y="0" width="199" height="323" frameX="-22" frameY="-7" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0011" x="195" y="0" width="199" height="323" frameX="-22" frameY="-7" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0012" x="396" y="0" width="196" height="327" frameX="-25" frameY="-3" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0013" x="396" y="0" width="196" height="327" frameX="-25" frameY="-3" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0014" x="396" y="0" width="196" height="327" frameX="-28" frameY="-3" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0015" x="396" y="0" width="196" height="327" frameX="-28" frameY="-3" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0016" x="0" y="0" width="195" height="330" frameX="-29" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0017" x="0" y="0" width="195" height="330" frameX="-29" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0018" x="0" y="0" width="195" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0019" x="0" y="0" width="195" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0020" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0021" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0022" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0023" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0024" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0025" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0026" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0027" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0028" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0029" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0030" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0031" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0032" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0033" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0034" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+	<SubTexture name="theShaker0035" x="0" y="330" width="194" height="330" frameX="-31" frameY="0" frameWidth="226" frameHeight="330"/>
+</TextureAtlas>

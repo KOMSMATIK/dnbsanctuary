@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "jackalidle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				91,
+				-41
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "jackalleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				-33
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "jackaldown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				43
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "jackalup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-28,
+				-44
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "jackalright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-2
+			],
+			"anim": "MARGARET THATCHER",
+			"fps": 24,
+			"name": "Margret thatcher",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jackal",
+	"position": [
+		-270,
+		20
+	],
+	"healthicon": "jackal",
+	"flip_x": false,
+	"healthbar_colors": [
+		23,
+		91,
+		92
+	],
+	"camera_position": [
+		310,
+		160
+	],
+	"sing_duration": 6.1,
+	"scale": 0.5
+}

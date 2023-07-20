@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="sloober.png">
+<SubTexture name="sloober idle0000" x="885" y="1285" width="510" height="344" frameX="-40" frameY="-216" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober idle0001" x="0" y="1285" width="459" height="385" frameX="-65" frameY="-175" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober idle0002" x="416" y="880" width="427" height="401" frameX="-82" frameY="-159" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober idle0003" x="0" y="880" width="416" height="405" frameX="-88" frameY="-155" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober idle0004" x="1244" y="417" width="412" height="407" frameX="-90" frameY="-153" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober right0000" x="824" y="0" width="420" height="431" frameX="-88" frameY="-129" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober right0001" x="0" y="456" width="418" height="424" frameX="-88" frameY="-136" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober left0000" x="1244" y="0" width="440" height="417" frameX="-62" frameY="-143" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober left0001" x="418" y="456" width="436" height="417" frameX="-66" frameY="-143" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober up0000" x="0" y="0" width="412" height="456" frameX="-90" frameY="-118" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober up0001" x="412" y="0" width="412" height="448" frameX="-90" frameY="-125" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober down0000" x="459" y="1285" width="426" height="384" frameX="-84" frameY="-176" frameWidth="588" frameHeight="712" />
+<SubTexture name="sloober down0001" x="843" y="880" width="423" height="387" frameX="-86" frameY="-173" frameWidth="588" frameHeight="712" />
+</TextureAtlas>
