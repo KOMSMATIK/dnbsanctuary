@@ -266,19 +266,21 @@ class FreeplayState extends MusicBeatState
 			switch (groupCategory[thisGroup].toLowerCase()) // google drive 2
 			{
 				case 'base':
-					addSong('delightful', 0, 'dave', 0xFF4826DC);
-					addSong('tranquility', 0, 'dave', 0xFF4826DC);
+					addSong('homespun', 0, 'dave', 0xFF4826DC);
 					addSong('cordial', 0, 'dave', 0xFF4826DC);
-					addSong('harvest', 0, 'bambi', 0xFF259E51);
 					addSong('slapdash', 0, 'bambi', 0xFF259E51);
 					addSong('exasperated', 0, 'bambi', 0xFF259E51);
 				case 'sanctuary':
-					addSong('rodger', 0, 'rodger', 0xFF3366CC);
 					addSong('log', 0, 'timber', 0xFFFBC62C);
+					addSong('scatterbrain', 0, 'gome', FlxColor.fromRGB(255, 0, 255));
+					addSong('fruitsnack', 0, 'jackal', FlxColor.fromRGB(255, 0, 255));
+					addSong('midwest', 0, 'icy', FlxColor.fromRGB(134, 228, 251));
+					addSong('rodger', 0, 'rodger', 0xFF3366CC);
 				case 'extras':
-					addSong('dotty', 0, 'tambi', 0xFF5B15CA);
+					addSong('dotty', 0, 'tambi', FlxColor.fromRGB(105, 122, 249));
 				case 'joke':
-					addSong('gulag', 0, 'aleks', 0xFFFFFF); // crash prevent
+					addSong('kekalicious', 0, 'kekbi', FlxColor.fromRGB(62, 210, 69));
+					addSong('gulag', 0, 'aleks', FlxColor.fromRGB(62, 210, 69)); // to prevent crashing if you add a new category just fuckin add some random song that doesnt belong there
 					
 
 			}

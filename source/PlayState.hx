@@ -483,7 +483,7 @@ class PlayState extends MusicBeatState
 					curStage = 'schoolEvil';
 				case 'ugh' | 'guns' | 'stress':
 					curStage = 'tank';
-				case 'slapdash':
+				case 'slapdash' | 'kekalicious' | 'exasperated':
 					curStage = 'bamb';
 				case 'gulag':
 					curStage = 'aleksander';
@@ -610,6 +610,10 @@ class PlayState extends MusicBeatState
 			case 'aleksander':
 				var a:BGSprite = new BGSprite('backgrounds/a/a', -400,-200, 1, 1);
 				add(a);
+
+			case 'icey':
+				var ibg:BGSprite = new BGSprite('backgrounds/icey/icyBG', -400,-200, 1, 1);
+				add(ibg);
 
 			case 'tambi':
 				var back:BGSprite = new BGSprite('backgrounds/tambi/back', -100, -0, 1, 1);
@@ -989,7 +993,7 @@ class PlayState extends MusicBeatState
 		{
 			case "slapdash" | "cordial":
 				credThing = "xonthebeat";
-			case "log":
+			case "log" | "fruitsnack" | "scatterbrain":
 				credThing = "Skib";
 			case "gulag":
 				credThing = "Lexicord";
@@ -1000,8 +1004,8 @@ class PlayState extends MusicBeatState
 			case "rodger":
 				credThing = "Exazeeiscool";
 			case "exasperated":
-				credThing = "kuzo";
-			case "dotty":
+				credThing = "kumorii";
+			case "dotty" | "homespun" | "kekalicious" | "midwest":
 				credThing = "Sheriff";
 		}
 

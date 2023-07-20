@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-130,
+				-180
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "idle",
+			"loop": false,
+			"name": "icydicey idle"
+		},
+		{
+			"offsets": [
+				21,
+				-180
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "icydicey left"
+		},
+		{
+			"offsets": [
+				-160,
+				-210
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "icydicey down"
+		},
+		{
+			"offsets": [
+				-129,
+				-140
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singUP",
+			"loop": false,
+			"name": "icydicey up"
+		},
+		{
+			"offsets": [
+				-272,
+				-221
+			],
+			"indices": [],
+			"fps": 12,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "icydicey right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/icydicey",
+	"position": [
+		-210,
+		-360
+	],
+	"healthicon": "icy",
+	"flip_x": false,
+	"healthbar_colors": [
+		95,
+		175,
+		206
+	],
+	"camera_position": [
+		60,
+		-10
+	],
+	"sing_duration": 6.1,
+	"scale": 0.999999999999999
+}

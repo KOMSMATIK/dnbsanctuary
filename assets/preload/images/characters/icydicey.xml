@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="icydicey.png">
+<SubTexture name="icydicey idle0000" x="0" y="0" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey idle0001" x="976" y="0" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey idle0002" x="1952" y="0" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey idle0003" x="2928" y="0" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey left0000" x="0" y="1079" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey left0001" x="976" y="1079" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey left0002" x="1952" y="1079" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey down0000" x="2928" y="1079" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey down0001" x="0" y="2158" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey down0002" x="976" y="2158" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey up0000" x="1952" y="2158" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey up0001" x="2928" y="2158" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey up0002" x="0" y="3237" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey right0000" x="976" y="3237" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey right0001" x="1952" y="3237" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+<SubTexture name="icydicey right0002" x="2928" y="3237" width="976" height="1079" frameX="0" frameY="0" frameWidth="976" frameHeight="1079" />
+</TextureAtlas>

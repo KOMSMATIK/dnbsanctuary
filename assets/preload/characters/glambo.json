@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "glambo danceL"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "glambo danceR"
+		},
+		{
+			"offsets": [
+				20,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "glambo left"
+		},
+		{
+			"offsets": [
+				-10,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "glambo down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "glambo up"
+		},
+		{
+			"offsets": [
+				0,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "glambo right"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/glambo",
+	"position": [
+		-110,
+		-180
+	],
+	"healthicon": "glambo",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		103,
+		177
+	],
+	"camera_position": [
+		80,
+		120
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

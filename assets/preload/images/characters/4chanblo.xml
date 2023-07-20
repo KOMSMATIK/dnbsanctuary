@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="4chanblo.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bipdown0000" x="2" y="2" width="232" height="118" frameX="0" frameY="-8" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0001" x="2" y="2" width="232" height="118" frameX="0" frameY="-8" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0002" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0003" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0004" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0005" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0006" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0007" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0008" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0009" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0010" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0011" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0012" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipdown0013" x="236" y="2" width="223" height="126" frameX="-8" frameY="0" frameWidth="232" frameHeight="126"/>
+	<SubTexture name="bipidle0000" x="461" y="2" width="134" height="120" frameX="0" frameY="-14" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0001" x="461" y="2" width="134" height="120" frameX="0" frameY="-14" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0002" x="597" y="2" width="126" height="124" frameX="-4" frameY="-8" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0003" x="597" y="2" width="126" height="124" frameX="-4" frameY="-8" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0004" x="725" y="2" width="120" height="129" frameX="-6" frameY="-3" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0005" x="725" y="2" width="120" height="129" frameX="-6" frameY="-3" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0006" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0007" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0008" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0009" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0010" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0011" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0012" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipidle0013" x="847" y="2" width="118" height="131" frameX="-7" frameY="0" frameWidth="134" frameHeight="134"/>
+	<SubTexture name="bipleft0000" x="2" y="135" width="206" height="131"/>
+	<SubTexture name="bipleft0001" x="2" y="135" width="206" height="131"/>
+	<SubTexture name="bipleft0002" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0003" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0004" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0005" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0006" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0007" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0008" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0009" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0010" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0011" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0012" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipleft0013" x="210" y="135" width="202" height="130" frameX="-3" frameY="-1" frameWidth="206" frameHeight="131"/>
+	<SubTexture name="bipright0000" x="414" y="135" width="302" height="158" frameX="0" frameY="0" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0001" x="414" y="135" width="302" height="158" frameX="0" frameY="0" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0002" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0003" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0004" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0005" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0006" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0007" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0008" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0009" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0010" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0011" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0012" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipright0013" x="718" y="135" width="288" height="149" frameX="0" frameY="-10" frameWidth="302" frameHeight="159"/>
+	<SubTexture name="bipup0000" x="2" y="295" width="244" height="226" frameX="0" frameY="0" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0001" x="2" y="295" width="244" height="226" frameX="0" frameY="0" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0002" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0003" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0004" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0005" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0006" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0007" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0008" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0009" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0010" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0011" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0012" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+	<SubTexture name="bipup0013" x="248" y="295" width="245" height="208" frameX="-8" frameY="-17" frameWidth="253" frameHeight="226"/>
+</TextureAtlas>

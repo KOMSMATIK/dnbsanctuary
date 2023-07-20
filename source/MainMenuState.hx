@@ -270,7 +270,7 @@ class MainMenuState extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);*/
-		var versionShit:FlxText = new FlxText(0, FlxG.height - 32, 0, "VS Dave and Bambi: Sanctuary DEV BUILD", 12);
+		var versionShit:FlxText = new FlxText(0, FlxG.height - 32, 0, "Sanctuary - Rizzalicious Dev Build!", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Comic Sans MS Bold", 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		versionShit.screenCenter(X);
