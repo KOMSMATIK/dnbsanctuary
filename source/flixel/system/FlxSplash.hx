@@ -1,4 +1,4 @@
-package flixel.system;
+-package flixel.system;
 
 import flash.display.Graphics;
 import flash.display.Sprite;
