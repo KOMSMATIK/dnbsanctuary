@@ -1,4 +1,4 @@
--package flixel.system.ui;
+package flixel.system.ui;
 
 #if FLX_SOUND_SYSTEM
 import flash.display.Bitmap;
